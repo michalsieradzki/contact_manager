@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: contact_manager_production
+  username: postgres
+  password: postgres
